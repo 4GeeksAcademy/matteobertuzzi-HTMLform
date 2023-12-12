@@ -24,20 +24,25 @@
                             </div>
                         </div>
                         <div class="row my-3">
-                            <div class="col-3">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-3">
                                 <label for="card" class="form-label font-weight-bold">Card #</label>
                                 <input type="number" min="0" class="form-control" id="card" maxlength="12" placeholder="XXXXXXXXXXXX" required>
                             </div>
-                            <div class="col-3">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-3">
                                 <label for="CVC" class="form-label font-weight-bold">CVC #</label>
                                 <input type="number" min="0" class="form-control" id="CVC" maxlength="4" placeholder="0000" required>
                             </div>
-                            <div class="col-3">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-3">
                                 <label for="expirationDate" class="form-label font-weight-bold">Expiration Date</label>
                                 <input type="date" class="form-control" id="expirationDate">
                             </div>
-                            <div class="col-3">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-3">
                                 <label for="amount" class="form-label font-weight-bold">Amount</label>
+                                <!-- Use "INPUT GROUP - INPUT GROUP PREPEND" to add dollar sign ($) as a separate box (see preview) -->
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="dollar">$</span>
@@ -47,21 +52,25 @@
                             </div>
                         </div>
                         <div class="row my-3">
-                            <div class="col-6">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-6">
                                 <label for="firstName" class="form-label font-weight-bold">First Name</label>
                                 <input type="text" class="form-control" id="firstName" required>
                             </div>
-                            <div class="col-6">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-6">
                                 <label for="lastName" class="form-label font-weight-bold">Last Name</label>
                                 <input type="text" class="form-control" id="lastName" required>
                             </div>
                         </div>
                         <div class="row my-3">
-                            <div class="col-6">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-6">
                                 <label for="city" class="form-label font-weight-bold">City</label>
                                 <input type="text" class="form-control" id="city" required>
                             </div>
-                            <div class="col-3">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-3">
                                 <label for="state" class="form-label font-weight-bold">State</label>
                                 <select class="custom-select" id="state" aria-placeholder="pick a state">
                                     <option selected>Choose..</option>
@@ -70,13 +79,15 @@
                                     <option value="Michingan">Michingan</option>
                                 </select>
                             </div>
-                            <div class="col-3">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-3">
                                 <label for="plz" class="form-label font-weight-bold">Postal Code</label>
                                 <input type="number" min="0" class="form-control" id="plz">
                             </div>
                         </div>
                         <div class="row my-3">
-                            <div class="col-6">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-6">
                                 <label for="creditCard" class="form-label font-weight-bold">We accept:</label>
                                 <div class="bg-light p-3 rounded">
                                 <div class="form-check form-check-inline">
@@ -97,14 +108,16 @@
                                 </div>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-6">
                                 <label for="message" class="form-label font-weight-bold">Message</label>
                                 <textarea id="message" class="form-control" aria-describedby="notes"></textarea>
                                 <small class="form-text text-muted" id="notes">Add any notes here.</small>
                             </div>
                         </div>
                         <div class="row my-3 bg-light">
-                            <div class="col-12 bg-light d-flex justify-content-end p-2">
+                            <!-- Add col-md breakpoint to ensure that the content is properly shown on smaller screens -->
+                            <div class="col-md-12 bg-light d-flex justify-content-end p-2">
                                 <button type="reset"class="btn btn-secondary mr-3" value="cancel">Cancel</button>
                                 <button type="submit" class="btn btn-success" value="submit">Submit</button>
                             </div>
